@@ -1,0 +1,36 @@
+{
+  "name": "@marvelapp/marvel-3-application",
+  "version": "7.0.0",
+  "main": "dist-cjs/",
+  "module": "dist-esm/",
+  "source": "src/",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "m3-scripts build",
+    "build:esm": "m3-scripts build esm",
+    "build:cjs": "m3-scripts build cjs",
+    "watch": "m3-scripts watch",
+    "watch:esm": "m3-scripts watch esm",
+    "watch:cjs": "m3-scripts watch cjs",
+    "clean": "m3-scripts clean",
+    "prepublish": "yarn build"
+  },
+  "dependencies": {
+    "@marvelapp/core": "^11.0.0",
+    "@marvelapp/theme": "^13.0.0",
+    "@marvelapp/user-permissions": "^6.0.0",
+    "lodash-es": "^4.17.11",
+    "prop-types": "^15.6.2",
+    "react-apollo": "^3.0.1",
+    "react-router-dom": "^5.0.1",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@marvelapp/m3-scripts": "^5.1.0",
+    "react": "^16.8.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "sideEffects": false
+}

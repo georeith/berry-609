@@ -1,0 +1,37 @@
+{
+  "name": "@marvelapp/upsells",
+  "private": true,
+  "version": "1.0.0",
+  "main": "dist-cjs/",
+  "module": "dist-esm/",
+  "source": "src/",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "m3-scripts build",
+    "build:esm": "m3-scripts build esm",
+    "build:cjs": "m3-scripts build cjs",
+    "watch": "m3-scripts watch",
+    "watch:esm": "m3-scripts watch esm",
+    "watch:cjs": "m3-scripts watch cjs",
+    "clean": "m3-scripts clean",
+    "prepublish": "yarn build"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "react-apollo": "^3.0.1"
+  },
+  "devDependencies": {
+    "@marvelapp/m3-scripts": "^5.1.0",
+    "@marvelapp/marvel-3-test-application": "^1.0.0",
+    "@testing-library/react": "^8.0.1",
+    "jest-cucumber": "^2.0.11",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "styled-components": ">=4.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "styled-components": ">=4.0.0"
+  }
+}
