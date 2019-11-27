@@ -1,20 +1,11 @@
 {
   "name": "@marvelapp/ui",
   "version": "17.0.0",
-  "main": "dist-cjs/index.js",
-  "module": "dist-esm/index.js",
-  "source": "src/",
-  "author": "Yavor Punchev <yavor.punchev@gmail.com>",
-  "license": "UNLICENSED",
   "dependencies": {
     "@marvelapp/core": "^11.0.0",
     "@marvelapp/hooks": "^6.0.0",
     "@marvelapp/theme": "^13.0.0",
-    "@styled-system/should-forward-prop": "^5.0.5",
-    "@styled-system/theme-get": "^5.0.5",
     "intl-tel-input": "^15.0.2",
-    "lodash-es": "^4.17.11",
-    "prop-types": "^15.6.2",
     "react-circular-progressbar": "^2.0.0",
     "react-div-100vh": "^0.3.4",
     "react-intl-tel-input": "^7.0.1",
@@ -22,31 +13,15 @@
     "react-pose": "^4.0.2",
     "react-refractor": "^1.0.1",
     "react-select-search": "^0.9.6",
-    "react-textfit": "^1.1.0",
-    "refractor": "^2.9.0",
-    "styled-system": "^5.0.12"
+    "react-textfit": "^1.1.0"
   },
   "devDependencies": {
     "@marvelapp/m3-scripts": "^5.1.0",
     "@testing-library/react": "^8.0.1",
-    "babel-jest": "^24.9.0",
-    "babel-polyfill": "^6.26.0",
-    "react": ">=16.8.0",
-    "styled-components": "^4.3.2"
+    "react": ">=16.8.0"
   },
   "peerDependencies": {
-    "react": ">=16.8.0",
-    "styled-components": "^4.3.2"
-  },
-  "scripts": {
-    "build": "m3-scripts build",
-    "build:esm": "m3-scripts build esm",
-    "build:cjs": "m3-scripts build cjs",
-    "watch": "m3-scripts watch",
-    "watch:esm": "m3-scripts watch esm",
-    "watch:cjs": "m3-scripts watch cjs",
-    "clean": "m3-scripts clean",
-    "prepublish": "yarn build"
+    "react": ">=16.8.0"
   },
   "sideEffects": false
 }

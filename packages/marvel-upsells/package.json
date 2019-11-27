@@ -2,20 +2,6 @@
   "name": "@marvelapp/upsells",
   "private": true,
   "version": "1.0.0",
-  "main": "dist-cjs/",
-  "module": "dist-esm/",
-  "source": "src/",
-  "license": "UNLICENSED",
-  "scripts": {
-    "build": "m3-scripts build",
-    "build:esm": "m3-scripts build esm",
-    "build:cjs": "m3-scripts build cjs",
-    "watch": "m3-scripts watch",
-    "watch:esm": "m3-scripts watch esm",
-    "watch:cjs": "m3-scripts watch cjs",
-    "clean": "m3-scripts clean",
-    "prepublish": "yarn build"
-  },
   "sideEffects": false,
   "dependencies": {
     "react-apollo": "^3.0.1"

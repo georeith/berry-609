@@ -1,23 +1,7 @@
 {
   "name": "@marvelapp/hooks",
   "version": "6.0.0",
-  "main": "dist-cjs/index.js",
-  "module": "dist-esm/index.js",
-  "source": "src/",
-  "license": "UNLICENSED",
-  "scripts": {
-    "build": "m3-scripts build",
-    "build:esm": "m3-scripts build esm",
-    "build:cjs": "m3-scripts build cjs",
-    "watch": "m3-scripts watch",
-    "watch:esm": "m3-scripts watch esm",
-    "watch:cjs": "m3-scripts watch cjs",
-    "clean": "m3-scripts clean",
-    "prepublish": "yarn build"
-  },
   "dependencies": {
-    "lodash-es": "^4.17.11",
-    "querystring": "^0.2.0",
     "react-router-dom": "^5.0.1"
   },
   "devDependencies": {

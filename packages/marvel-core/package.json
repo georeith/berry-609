@@ -1,29 +1,5 @@
 {
   "name": "@marvelapp/core",
-  "main": "dist-cjs/",
-  "module": "dist-esm/",
-  "source": "src/",
-  "react-native": "src/index.js",
   "version": "11.0.0",
-  "license": "UNLICENSED",
-  "scripts": {
-    "build": "m3-scripts build",
-    "build:esm": "m3-scripts build esm",
-    "build:cjs": "m3-scripts build cjs",
-    "watch": "m3-scripts watch",
-    "watch:esm": "m3-scripts watch esm",
-    "watch:cjs": "m3-scripts watch cjs",
-    "clean": "m3-scripts clean",
-    "prepublish": "yarn build"
-  },
-  "sideEffects": false,
-  "devDependencies": {
-    "@marvelapp/m3-scripts": "^5.1.0"
-  },
-  "dependencies": {
-    "date-fns": "^2.0.0-alpha.25",
-    "lodash-es": "^4.17.15",
-    "query-string": "^5.1.1",
-    "react-device-detect": "^1.6.2"
-  }
+  "sideEffects": false
 }
