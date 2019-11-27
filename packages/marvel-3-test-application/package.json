@@ -4,9 +4,7 @@
   "version": "1.0.0",
   "devDependencies": {
     "@apollo/react-hooks": "^3.0.1",
-    "@marvelapp/m3-scripts": "^5.1.0",
     "@marvelapp/marvel-3-application": "7.0.0",
-    "@marvelapp/theme": "^13.0.0",
     "@testing-library/react": "^8.0.1",
     "graphql": "^14.1.1",
     "graphql-tag": "^2.10.1",

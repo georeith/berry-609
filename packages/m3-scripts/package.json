@@ -1,9 +1,0 @@
-{
-  "name": "@marvelapp/m3-scripts",
-  "private": true,
-  "version": "5.1.0",
-  "dependencies": {
-    "@testing-library/react": "^8.0.1",
-    "react": "^16.8.2"
-  }
-}

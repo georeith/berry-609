@@ -1,7 +1,0 @@
-{
-  "name": "@marvelapp/theme",
-  "version": "13.0.0",
-  "devDependencies": {
-    "@marvelapp/m3-scripts": "^5.1.0"
-  }
-}
