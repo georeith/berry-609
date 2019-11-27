@@ -2,10 +2,8 @@
   "name": "@marvelapp/marvel-3-application",
   "version": "7.0.0",
   "dependencies": {
-    "@marvelapp/user-permissions": "^6.0.0",
     "react-apollo": "^3.0.1",
-    "react-router-dom": "^5.0.1",
-    "styled-components": "^4.3.2"
+    "react-router-dom": "^5.0.1"
   },
   "devDependencies": {
     "react": "^16.8.0"

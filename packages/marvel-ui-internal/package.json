@@ -5,7 +5,6 @@
     "@marvelapp/marvel-3-application": "^7.0.0",
     "@marvelapp/react-selectable": "^6.0.0",
     "@marvelapp/ui": "^17.0.0",
-    "@marvelapp/user-permissions": "^6.0.0",
     "react-apollo": "^3.0.1"
   },
   "peerDependencies": {
