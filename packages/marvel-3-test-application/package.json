@@ -9,8 +9,5 @@
     "react-apollo": "^3.0.1",
     "react-router-dom": "5.0.1"
   },
-  "peerDependencies": {
-    "react": "^16.8.0"
-  },
   "sideEffects": false
 }

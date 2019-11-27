@@ -3,14 +3,7 @@
   "version": "20.0.0",
   "dependencies": {
     "@marvelapp/marvel-3-application": "^7.0.0",
-    "@marvelapp/react-selectable": "^6.0.0",
-    "@marvelapp/ui": "^17.0.0",
     "react-apollo": "^3.0.1"
-  },
-  "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0",
-    "react-router-dom": "^5.0.1"
   },
   "devDependencies": {
     "react": ">=16.8.0",
