@@ -2,7 +2,6 @@
   "name": "@marvelapp/marvel-3-application",
   "version": "7.0.0",
   "dependencies": {
-    "@marvelapp/core": "^11.0.0",
     "@marvelapp/theme": "^13.0.0",
     "@marvelapp/user-permissions": "^6.0.0",
     "react-apollo": "^3.0.1",

@@ -2,18 +2,8 @@
   "name": "@marvelapp/ui",
   "version": "17.0.0",
   "dependencies": {
-    "@marvelapp/core": "^11.0.0",
     "@marvelapp/hooks": "^6.0.0",
-    "@marvelapp/theme": "^13.0.0",
-    "intl-tel-input": "^15.0.2",
-    "react-circular-progressbar": "^2.0.0",
-    "react-div-100vh": "^0.3.4",
-    "react-intl-tel-input": "^7.0.1",
-    "react-lightweight-tooltip": "^1.0.0",
-    "react-pose": "^4.0.2",
-    "react-refractor": "^1.0.1",
-    "react-select-search": "^0.9.6",
-    "react-textfit": "^1.1.0"
+    "@marvelapp/theme": "^13.0.0"
   },
   "devDependencies": {
     "@marvelapp/m3-scripts": "^5.1.0",
