@@ -1,9 +1,6 @@
 {
   "name": "@marvelapp/ui",
   "version": "17.0.0",
-  "dependencies": {
-    "@marvelapp/hooks": "^6.0.0"
-  },
   "devDependencies": {
     "@testing-library/react": "^8.0.1",
     "react": ">=16.8.0"
