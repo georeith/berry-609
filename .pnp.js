@@ -53,7 +53,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "locationBlacklistData": [
     ],
     "locationLengthData": [
-      167,
       161,
       158,
       146,
@@ -477,27 +476,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT"
         }]
       ]],
-      ["@marvelapp/react-selectable", [
-        ["virtual:dc4d1a4ef9f83a1c4e2edbf2e3bf4290081fd597276524d60116f5586cfb10bba40f0c4b8e9cbe8aa417a9464be78edb0639d15274f1e67ba96db62bcc53c997#npm:6.0.0", {
-          "packageLocation": "./.yarn/virtual/@marvelapp-react-selectable-virtual-46344fc3a1/0/cache/@marvelapp-react-selectable-npm-6.0.0-02ca913bf2-1.zip/node_modules/@marvelapp/react-selectable/",
-          "packageDependencies": [
-            ["@marvelapp/react-selectable", "virtual:dc4d1a4ef9f83a1c4e2edbf2e3bf4290081fd597276524d60116f5586cfb10bba40f0c4b8e9cbe8aa417a9464be78edb0639d15274f1e67ba96db62bcc53c997#npm:6.0.0"],
-            ["prop-types", "npm:15.6.2"],
-            ["react", "npm:16.12.0"]
-          ],
-          "packagePeers": [
-            "react"
-          ],
-          "linkType": "HARD"
-        }]
-      ]],
       ["@marvelapp/ui-internal", [
         ["workspace:packages/marvel-ui-internal", {
           "packageLocation": "./packages/marvel-ui-internal/",
           "packageDependencies": [
             ["@marvelapp/ui-internal", "workspace:packages/marvel-ui-internal"],
             ["@marvelapp/marvel-3-application", "workspace:packages/marvel-3-application"],
-            ["@marvelapp/react-selectable", "virtual:dc4d1a4ef9f83a1c4e2edbf2e3bf4290081fd597276524d60116f5586cfb10bba40f0c4b8e9cbe8aa417a9464be78edb0639d15274f1e67ba96db62bcc53c997#npm:6.0.0"],
             ["react", "npm:16.12.0"],
             ["react-apollo", "virtual:dc4d1a4ef9f83a1c4e2edbf2e3bf4290081fd597276524d60116f5586cfb10bba40f0c4b8e9cbe8aa417a9464be78edb0639d15274f1e67ba96db62bcc53c997#npm:3.1.3"],
             ["react-dom", "virtual:dc4d1a4ef9f83a1c4e2edbf2e3bf4290081fd597276524d60116f5586cfb10bba40f0c4b8e9cbe8aa417a9464be78edb0639d15274f1e67ba96db62bcc53c997#npm:16.12.0"],
@@ -512,7 +496,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/marvel-upsells/",
           "packageDependencies": [
             ["@marvelapp/upsells", "workspace:packages/marvel-upsells"],
-            ["react-apollo", "virtual:a4e8f45b8124aa41223e94ca62fa557f512d02b1b025b1246521974f833fa45595ef685e2f062f69e393da3de9b8d63d9e6a8fa147b0f1abeeff945ae21146a4#npm:3.1.3"]
+            ["@marvelapp/marvel-3-test-application", "workspace:packages/marvel-3-test-application"],
+            ["react", "npm:16.12.0"],
+            ["react-dom", "virtual:dc4d1a4ef9f83a1c4e2edbf2e3bf4290081fd597276524d60116f5586cfb10bba40f0c4b8e9cbe8aa417a9464be78edb0639d15274f1e67ba96db62bcc53c997#npm:16.12.0"]
           ],
           "linkType": "SOFT"
         }]

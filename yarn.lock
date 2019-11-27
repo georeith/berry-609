@@ -120,7 +120,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@marvelapp/marvel-3-test-application@workspace:packages/marvel-3-test-application":
+"@marvelapp/marvel-3-test-application@^1.0.0, @marvelapp/marvel-3-test-application@workspace:packages/marvel-3-test-application":
   version: 0.0.0-use.local
   resolution: "@marvelapp/marvel-3-test-application@workspace:packages/marvel-3-test-application"
   dependencies:
@@ -132,23 +132,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@marvelapp/react-selectable@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@marvelapp/react-selectable@npm:6.0.0"
-  dependencies:
-    prop-types: "npm:^15.6.2"
-  peerDependencies:
-    react: ">=16.8.0"
-  checksum: f5f8d991883675a0968dadec3f397b7b52d6f4db7d7502ba3186f87f2c0466894070cebefd30b8a40da2755edec94fcca5000a222eefd7d93e25b481135710a5
-  languageName: node
-  linkType: hard
-
 "@marvelapp/ui-internal@workspace:packages/marvel-ui-internal":
   version: 0.0.0-use.local
   resolution: "@marvelapp/ui-internal@workspace:packages/marvel-ui-internal"
   dependencies:
     "@marvelapp/marvel-3-application": ^7.0.0
-    "@marvelapp/react-selectable": "npm:^6.0.0"
     react: "npm:>=16.8.0"
     react-apollo: "npm:^3.0.1"
     react-dom: "npm:>=16.8.0"
@@ -161,7 +149,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@marvelapp/upsells@workspace:packages/marvel-upsells"
   dependencies:
-    react-apollo: "npm:^3.0.1"
+    "@marvelapp/marvel-3-test-application": ^1.0.0
+    react: "npm:>=16.8.0"
+    react-dom: "npm:>=16.8.0"
   languageName: unknown
   linkType: soft
 
